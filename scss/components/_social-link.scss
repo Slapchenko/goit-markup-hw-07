@@ -19,7 +19,7 @@
 
   &--mode-dark {
     fill: var(--main-bg-cl);
-    background: rgba(255, 255, 255, 0.1);
+    background-color: var(--social-link-mode-dark-cl);
   }
 
   &:hover,

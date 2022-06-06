@@ -25,7 +25,7 @@
     width: 100%;
     padding: 11px 12px 11px 43px;
 
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid var(--modal-form-input-border-cl);
     border-radius: 4px;
     outline: transparent;
 
@@ -64,8 +64,6 @@
     line-height: 1.14;
     letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
-
     resize: none;
   }
 
@@ -90,7 +88,7 @@
 
     border-radius: 4px;
     border: 2px solid var(--secondary-txt-cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px var(--main-shadow-cl);
     cursor: pointer;
 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
